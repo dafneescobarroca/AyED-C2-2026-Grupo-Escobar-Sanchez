@@ -1,4 +1,6 @@
-Integrantes: Dafne Escobar Roca y Brandon Sanchez
-Mails: dafne.escobar.roca@gmail.com
-branchezz919.zz@gmail.com
+Integrantes:
+Dafne Escobar Roca y Brandon Sanchez
+Mails:
+Dafne: dafne.escobar.roca@gmail.com
+Bran: branchezz919.zz@gmail.com
 Tema elegido: POKEDEX
