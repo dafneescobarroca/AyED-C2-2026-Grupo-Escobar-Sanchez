@@ -40,8 +40,10 @@ def main():
             print("Chau.")
         elif opcion == "1":
             print("Listado de pokemones")
+            print(str("Iden | Nombre | Tipo 1 | Tipo 2 | HP | Ataque | Defensa | Velocidad | Generación"))
+            print()
             for pokemon in catalogo:
-                print(f"{pokemon.iden} | {pokemon.nombre} | Generacion: {pokemon.tipo1} | {pokemon.tipo2} | {pokemon.hp} | {pokemon.ataque} | {pokemon.defensa} | {pokemon.velocidad} | {pokemon.generacion}")
+                print(f"{pokemon.iden} | {pokemon.nombre} | {pokemon.tipo1} | {pokemon.tipo2} | {pokemon.hp} | {pokemon.ataque} | {pokemon.defensa} | {pokemon.velocidad} | {pokemon.generacion}")
         elif opcion in {"2", "3", "4", "5", "6", "7", "8", "9"}:
             pendiente()
         else:
