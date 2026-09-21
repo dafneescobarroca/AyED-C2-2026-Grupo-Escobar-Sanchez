@@ -1,5 +1,6 @@
 from src.config import TEMA
 from src.dominio.pokemones import catalogo
+from src.dominio.evoluciones import mostrar_evoluciones
 TEMAS = {
     "pokedex": "Pokédex",
     "recetario": "Recetario",
@@ -44,7 +45,10 @@ def main():
             print()
             for pokemon in catalogo:
                 print(f"{pokemon.iden} | {pokemon.nombre} | {pokemon.tipo1} | {pokemon.tipo2} | {pokemon.hp} | {pokemon.ataque} | {pokemon.defensa} | {pokemon.velocidad} | {pokemon.generacion}")
-        elif opcion in {"2", "3", "4", "5", "6", "7", "8", "9"}:
+        elif opcion == "5":
+            mostrar_evoluciones(172)
+
+        elif opcion in {"2", "3", "4", "6", "7", "8", "9"}:
             pendiente()
         else:
             print("Opción inválida.")
