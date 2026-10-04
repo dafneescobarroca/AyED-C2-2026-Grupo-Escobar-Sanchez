@@ -7,7 +7,7 @@ Fecha de esta versión del archivo:
 | Entrega | Fecha | Herramienta (ChatGPT, Cursor, Copilot, otra) | Para qué (diseño, código, debug, docs) | Qué pegaron o generaron | Qué reescribieron / revisaron a mano | Integrante |
 | --- | --- | --- | --- | --- | --- | --- |
 | E1 | 11/9 | ChatGPT, CloudeCode y Gemini | Explicacion de consignas y conceptos | - | - | Brandon y Dafne |
-| E2 |  |  |  |  |  |  |
+| E2 | 28/9 | claude | Explicacion de consignas y recordatorios de lo que significaba cada concepto | - | - | Brandon y Dafne |
 | E3 |  |  |  |  |  |  |
 | E4 |  |  |  |  |  |  |
 | E5 |  |  |  |  |  |  |

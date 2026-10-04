@@ -22,10 +22,10 @@ Qué es un ítem del catálogo. Qué es mutable y qué no (E1). Cómo se relacio
 
 ## 3. Recursión (E2)
 
-- Función:
-- Caso base:
-- Caso recursivo:
-- Traza de un ejemplo real del dataset:
+- Función:Creamos una funcion que muestre las evoluciones(mostrar_evoluciones).Y lo que hace es recorrer recursivamente la cadena de evolucion de un pokemon,a partir de su id. Le puse tambien como separador unas flechitas para que quede bonito. La funcion de mostrar todas las evoluciones,la invoca una vez por cada pokemon base para recorrer el catalogo completo
+- Caso base: cuando pokemon_id no es una llave del diccionario evoluciones(no tiene evolucion registrada el pokemon),la funcion imprime el  nombre de pokemon y corta con return asi no se llama a si misma.
+- Caso recursivo:en caso de que pokemon_id si es llave de evoluciones lo que hace la funcion recursiva imprime el nombre actual y luego por cada id en evoluciones se llama a si misma con ese id siguiente. 
+- Traza de un ejemplo real del dataset:charmander(4)-charmeleon(5)-charizard(6)
 
 ## 4. TADs (E3)
 
